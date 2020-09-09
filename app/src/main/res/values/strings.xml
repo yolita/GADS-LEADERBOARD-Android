@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GADS Leaderboard</string>
+    <string name="tab_text_1">Learning Leaders</string>
+    <string name="tab_text_2">SKill IQ Leaders</string>
+    <string name="leaderboard">LEADERBOAD</string>
+    <string name="submit_btn">Submit</string>
+    <string name="form_title">Project Submission</string>
+    <string name="successfulMsg">Submission Successful</string>
+    <string name="unsuccessfulMsg">Submission not Successful</string>
+    <string name="failedMsg">Are you sure</string>
+
+</resources>
