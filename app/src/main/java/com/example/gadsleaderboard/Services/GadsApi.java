@@ -19,11 +19,11 @@ public interface GadsApi {
     Call<List<LearnerModel>> getHrs();
 
     @FormUrlEncoded
-    @POST("https://docs.google.com/forms/d/e/1FAIpQLScNlm83i8cM8iEbzwE29voahc0dxclTJ2sb-wKr_hLPfKRxgQ/formResponse")
+    @POST("https://docs.google.com/forms/d/e/1FAIpQLSf9d1TcNU6zc6KR8bSEM41Z1g1zl35cwZr2xyjIhaMAz8WChQ/viewform")
     Call<Void> save(
-            @Field("entry.2005620554") String firstname,
-            @Field("entry.310596729")  String lastname,
-            @Field("entry.1045781291") String email,
-            @Field("entry.1166974658") String link
+            @Field("entry.1877115667") String firstname,
+            @Field("entry.2006916086")  String lastname,
+            @Field("entry.1824927963") String email,
+            @Field("entry.284483984") String link
             );
 }
